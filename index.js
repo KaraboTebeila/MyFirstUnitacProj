@@ -5,7 +5,7 @@ require('express-async-errors')
 
 const db = require('./db'),
     employeeRoutes = require('./controllers/employee.controller'),
-    userRoutes = require('../Project/controllers/user.controller')    
+    userRoutes = require('./controllers/user.controller')    
 
 
 //Middleware 
